@@ -1,0 +1,267 @@
+
+header{background-color: #C0C0C0;
+color: #000000;
+font-family: Times New Roman;
+height: 100px;
+}
+
+body {
+background-image: url(Images/bgocean.jpg);
+background-repeat: no-repeat;
+font-family: calibri;
+}
+
+
+nav {background-color: #B0E0E6;
+color: #696969;
+font-family: calibri;
+font-size: 18px;
+float: left;
+width: 160px;
+height: 1200px;
+padding-top: .5em;
+padding-right: .5em;
+padding-bottom: .5em;
+padding-left: 2em;
+display: block;
+}
+
+nav ul{
+list-style-type: none;
+padding-left: 1em;
+}
+body {
+background-color: #000033;
+font-family: calibri;
+}
+
+h1 {
+background-color: #C0C0C0;
+color: #000033;
+font-size: 40px;
+font-family: times new roman;}
+
+h2 {
+background-color: #FFFFFF;
+color:#000033;
+font-size: 24px;
+font-family: times new roman;}
+
+p {
+color: #000033;
+font-family: calibri;
+font-size: 18px;}
+
+ul {
+color: #000033;
+font-family: calibri;
+font-size: 18px;
+padding: 0px;
+margin-left: 0px;
+margin-top: 0px;
+margin-right:0px;
+margin-bottom:0px;
+display: inline;
+}
+
+li {
+padding: 5px;
+color: #000033;
+font-family: calibri;
+font-size: 18px}
+
+footer {font-family: calibri;
+font-size: 18px;
+color: #696969;
+background-color: #C0C0C0;
+height: 100px;
+}
+
+table {
+border: 1px solid #3399CC;
+border-collapse: collapse;
+width: 60%; 
+}
+
+th {
+padding: 5px;
+border: 1px solid #3399CC;
+color: #FFFFFF;
+background-color: #3366FF;
+}
+
+td {
+text-align: center;	
+padding: 5px;
+border: 1px solid #3399CC;
+}
+
+table tr:nth-of-type(n){background-color: #F5FAFC;}
+
+dt { color: #3399CC;
+font-weight: bold;
+}
+
+.align {
+display: block;
+text-align: center;
+}
+
+.crew {
+color: #33CCFF;
+font-weight: bold;
+}
+#wrapper {background-color: #FFFFFF;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+min-width: 700px;
+max-width: 1024px;
+display: block;
+}
+
+#champage {
+clear: right;
+width: 600px;
+height: 400px;
+padding-bottom: 400px;
+}
+
+#yacht {
+padding-top: 100px;
+clear: right;
+width: 300px;
+height: 300px;
+}
+
+#boatwedding {
+clear: right;
+width: 600px;
+height: 400px;
+padding-bottom: 400px;
+}
+
+
+
+#wineflight {
+padding-top: 100px;
+float: right;
+width: 300px;
+height: 300px;
+}
+
+#oyster {
+padding-top: 100px;
+float: left;
+width: 300px;
+height: 300px;
+}
+
+#pirate {
+float: right;
+position: relative;
+padding-top: 0;
+padding-bottom: 26px;
+background-color: #C0C0C0;
+}
+
+#footer {
+clear: both;
+margin: auto;
+padding: 0px;
+}
+
+#mobile {display: none;}
+
+#desktop {display: inline;}
+
+@media only screen and (max-width: 1024px){
+body {
+margin: 0px;
+padding: 0px;
+background-image: none;
+}
+#wrapper {
+min-width: 0px;
+margin: 0px;
+box-shadow: none;
+}
+h1 {
+margin: 0px;
+}
+nav {
+float: none;
+width: auto;
+padding-top: .01em;
+padding-bottom: .01em;
+padding-left: 1em;
+padding-right: 1em;
+}
+nav li {display: inline-block;}
+nav a {
+padding-right: 2em;
+}
+main {
+padding: 1em;
+margin-left: 0px;
+font-size: 90%;
+}
+footer {
+margin: 0px;
+}
+#champage{
+margin: 0px;
+}
+#boatwedding{ 
+margin: 0px;
+}
+#yacht {
+margin: 0px;
+}
+#wineflight { 
+margin: 0px;
+}
+
+#wineflight { 
+margin: 0px;
+}
+
+#oyster { 
+margin: 0px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+h1{
+height: 100%;
+font-size: 1.5em;
+padding-left: .3em;
+}
+nav {
+padding: 0px;
+}
+nav a { 
+display: block;
+border-bottom: 1px;
+border-bottom-color: #330000;
+}
+nav ul {
+margin: 0px;
+padding: 0px;
+}
+nav li {
+display: block;
+margin: 0px;
+padding: 0px;
+}
+main {
+padding-top: .1em;
+padding-right: .4em;
+padding-left: .6em;
+padding-bottom: .1em;
+}
+
+footer {
+padding: 0px;
+}
+}
